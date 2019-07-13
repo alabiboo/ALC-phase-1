@@ -21,6 +21,15 @@
         android:src="@drawable/abibou"
         android:contentDescription="@string/my_profil" />
 
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="40dp"
+        android:background="#000000"
+        app:layout_constraintTop_toTopOf="@+id/my_name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
     <TextView
         android:id="@+id/my_name"
         android:layout_width="0dp"
@@ -32,7 +41,7 @@
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.Material.Large"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 

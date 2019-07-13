@@ -27,6 +27,7 @@ public class AboutALCActivity extends AppCompatActivity {
 
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setAppCacheEnabled(true);
+        webView.getSettings().setLoadsImagesAutomatically(true);
         webView.getSettings().setDomStorageEnabled(true);
 
         webView.setWebViewClient(new WebViewClient()
