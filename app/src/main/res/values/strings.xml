@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_alc">About ALC</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="phone_number">Phone Number: 22899223370</string>
+    <string name="slack_username">Slack Username: @Abibou</string>
+    <string name="email">Email: aalabiboo@gmail.com</string>
+    <string name="country">Country: Togo</string>
+    <string name="track">Track: Android</string>
+    <string name="name_firstname">Abibou Alabi</string>
+    <string name="my_profil">My profil image</string>
+    <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="about">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+</resources>
